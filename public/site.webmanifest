@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "App Deco Studio",
+    "short_name": "App Deco",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#987a2b",
+    "theme_color": "#15130e",
+    "background_color": "#15130e",
     "display": "standalone"
 }
