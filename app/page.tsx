@@ -24,6 +24,12 @@ const apps = [
     url: 'https://ceramispace.appdeco.ca',
     iconSrc: '/images/ceramispace-icon.png',
   },
+  {
+    name: 'Sunwise: UV Index & Sunburn',
+    description: 'A UV forecast for your skin, hourly and 7-day, on iPhone, iPad and Apple Watch.',
+    url: 'https://sunwise.appdeco.ca',
+    iconSrc: '/images/sunwise-icon.png',
+  },
 ];
 
 export default function Home() {
@@ -104,7 +110,7 @@ export default function Home() {
               <h2 className="text-3xl font-semibold text-brand-cream">Our apps</h2>
               <p className="text-brand-cream/50 mt-2">Simple, beautiful tools for everyday life.</p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {apps.map((app) => (
                 <AppCard key={app.url} {...app} />
               ))}
