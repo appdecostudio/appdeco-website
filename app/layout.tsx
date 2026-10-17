@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: '%s · App Deco Studio',
   },
   description:
-    'App Deco Studio crafts beautiful, intuitive apps for Apple platforms. Explore Söka, Classifier, and Ceramispace.',
+    'App Deco Studio crafts beautiful, intuitive apps for Apple platforms. Explore Söka, Classifier, Ceramispace, and Sunwise.',
   metadataBase: new URL('https://appdeco.ca'),
   openGraph: {
     title: 'App Deco Studio',
